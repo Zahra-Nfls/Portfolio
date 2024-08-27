@@ -45,7 +45,7 @@ export default function HomeNav({ openModal, isModalOpen, closeModal }: HomeNavP
                         <Tooltip text="Resume">
                         <li className="my-8"><Link href="/Resume"><Image src={resume} alt="resume" className="w-15 h-15" /></Link></li>
                         </Tooltip>
-                        <Tooltip text="Project">
+                        <Tooltip text="Projects">
                         <li className="my-8"><Link href="/Project"><Image src={projects} alt="projects" className="w-15 h-15" /></Link></li>
                         </Tooltip>
                         {/* <Tooltip text="Contact">

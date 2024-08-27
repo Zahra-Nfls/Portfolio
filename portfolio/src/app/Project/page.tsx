@@ -35,7 +35,7 @@
         { id: 2, title: 'Movie-Browser', description: 'React App that fetches movies from API, their infos and link to trailer + user log-in.', image: '/images/Movie-Browser.png', width: 300, height: 200, deployUrl: 'https://zaraana.github.io/V-Card/' },
         { id: 3, title: 'To Do Lis React', description: 'React To Do List, add, modify, delete tasks and store them.', image: '/images/To Do Lis React.png', width: 300, height: 200, deployUrl: 'https://zara-to-do-app.netlify.app/' },
         { id: 6, title: 'React-Practice', description: 'Some React Practice', image: "/images/practice React.png", width: 300, height: 200, deployUrl: 'https://zaraana.github.io/V-Card/' },
-        { id: 4, title: 'The Weather App', description: 'JavaScript App cast weather/city + 5 next days forecast + img and city description + sidebar with search history ', image: '/images/The Weather App.png', width: 300, height: 200, deployUrl: 'https://zaraana.github.io/The-Weather-App/' },
+        { id: 4, title: 'The Weather App', description: 'JavaScript App cast weather/city + 5 next days forecast + img and city description + sidebar and search history ', image: '/images/The Weather App.png', width: 300, height: 200, deployUrl: 'https://zaraana.github.io/The-Weather-App/' },
         { id: 9, title: 'To Do List', description: 'Description of project three', image: '/images/To Do List.png', width: 300, height: 200, deployUrl: 'https://zaraana.github.io/V-Card/' },
         { id: 9, title: 'V-Card', description: 'Html and CSS V-Card', image: '/images/v-card.png', width: 300, height: 200, deployUrl: 'https://zaraana.github.io/V-Card/' },
         { id: 7, title: 'The Collection', description: 'A Js App with a collection of my favorite movies.', image: '/images/The Collection.png', width: 300, height: 200, deployUrl: 'https://zaraana.github.io/V-Card/' },
@@ -52,12 +52,12 @@
             <h2 className="text-4xl text-fuchsia-950 font-dm ">My Projects</h2>
             <Image src={usb} alt="usb" className="w-10"/>
             </section>
-            <div className="mt-2 mx-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 overflow-y-auto scrollbar-custom " style={{ maxHeight: '700px' }}>
+            <div className="mt-2 mx-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 overflow-y-auto scrollbar-custom " style={{ maxHeight: '800px' }}>
             {projects.map((project) => (
-                <div key={project.id} className="p-5 my-5 bg-white shadow-lg rounded-lg div-style-mobile box-shadow ">
-                <Image src={project.image} alt={project.title} width={project.width} height={project.height} className="w-full h-40 object-cover rounded" />
+                <div key={project.id} className="p-5 my-5 bg-white shadow-lg rounded-lg div-style-mobile box-shadow flex flex-col justify-center">
+                <Image src={project.image} alt={project.title} width={project.width} height={project.height} className="w-69 h-52 object-fit rounded " />
                 <h3 className="text-xl text-fuchsia-950 mt-2 font-dm">{project.title}</h3>
-                <p className=" text-s mt-2 font-playfair h-20">{project.description}</p>
+                <p className=" text-xs mt-2 font-playfair h-20">{project.description}</p>
                 <a href={project.deployUrl} target="_blank" rel="noopener noreferrer">
                     <button className="mt-4 px-4 py-2 bg-fuchsia-950 text-white rounded transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md">
                     View Project
@@ -67,7 +67,7 @@
             ))}
             <section>
             <a href="https://github.com/zaraana?tab=repositories" target="_blank" rel="noopener noreferrer">
-            <button className="mt-4 mb-4 mx-3 px-5 py-4 bg-fuchsia-950 text-white rounded transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md">More..</button>
+            <button className="mt-4 mb-20 mx-3 px-5 py-4 bg-fuchsia-950 text-white rounded transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md">More..</button>
             </a>
             </section>
             </div>

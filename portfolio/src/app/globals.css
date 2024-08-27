@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Ga+Maamli&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Ga+Maamli&family=Nanum+Gothic&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Ga+Maamli&family=Nanum+Gothic&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Ga+Maamli&family=Nanum+Gothic&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ga+Maamli&family=Nanum+Gothic&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat+Brush&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ga+Maamli&family=Nanum+Gothic&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat+Brush&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ga+Maamli&family=Nanum+Gothic&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat+Brush&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ga+Maamli&family=Lilita+One&family=Nanum+Gothic&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Caveat+Brush&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Ga+Maamli&family=Lilita+One&family=Nanum+Gothic&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* body {
+.container {
+  width: 50%;
+  padding: 2rem;
+}
+} */
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.box-shadow{
+  box-shadow: 4px 4px 5px #a1327e ;
+  justify-content: center;
+  background-color: #FFD5F2;
+  background-color: rgba(250, 160, 220, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.footer{
+  background-color: #FFDBFF;
+  background-color: rgba(256, 168, 225, 0.5);
+}
+
+.div-style{
+    align-items: center;
+    padding:20px;
+    margin-top: 10px;
+    margin-right: 70px;
+    background: transparent;
+    justify-content: center;
+    background-color: #FFDBFF;
+    background-color: rgba(256, 168, 225, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.div-style-mobile{
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding:20px;
+  background: transparent;
+  justify-content: center;
+  background-color: #FFDBFF;
+  background-color: rgba(256, 168, 225, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+transition: background-color 0.3s ease;
+}
+
+.div-slider{
+  align-items: center;
+  margin-top: 10px;
+  padding:10px;
+  background: transparent;
+  justify-content: center;
+  background-color: #FFDBFF;
+  background-color: rgba(256, 168, 225, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+transition: background-color 0.3s ease;
+}
+
+li img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2); 
+  border-radius: 0.5rem;
+  padding: -0.5rem;
+}
+
+/* .btn{
+  background-color: #a1327e;
+} */
+
+.style-skills{
+  background-color: #FFDBFF;
+  background: transparent;
+  justify-content: center;
+  background-color: #FFDBFF;
+  background-color: rgba(256, 168, 225, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+transition: background-color 0.3s ease;
+}
+
+Webkit Browsers (Chrome, Safari)
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a1327e; 
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #FFDBFF; 
+}
+
+/* Firefox */
+.scrollbar-custom {
+  scrollbar-width: thin; 
+  scrollbar-color: #a1327e #FFDBFF; 
+}
+
+
+.bg{
+  background-color: #FFDBFF;
+  background: transparent;
+  justify-content: center;
+  background-color: #FFDBFF;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+.bg-cards{
+  background-color: #FFDBFF;
+  background: transparent;
+  justify-content: center;
+  background-color: #FFDBFF;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+

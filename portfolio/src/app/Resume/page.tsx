@@ -24,17 +24,17 @@ export default function Resume() {
                     {/* Pass the props to RouteNavBar */}
                     <RouteNavBar openModal={openModal} isModalOpen={isModalOpen} closeModal={closeModal} />
 
-                    <div className="flex flex-row gap-3 justify-center items-center mt-16 mb-16">
+                    <div className="flex flex-row gap-3 justify-center items-center mt-16 mb-10">
                             <h2 className="text-4xl text-fuchsia-950 font-dm ">My Resume</h2>
                             <Image src={resume} alt="resume" className="w-12 h-12 flex"/>
                     </div>
 
-                    <div className="flex flex-col overflow-y-auto" style={{ maxHeight: '700px' }}>
+                    <div className="flex flex-col overflow-y-auto scrollbar-custom " style={{ maxHeight: '700px' }}>
                         <div className="mb-10 flex justify-center mx-2">
                             <iframe
                                 src="/Curriculum Vitae en.pdf"
-                                width="650px"
-                                height="500px"
+                                width="400px"
+                                height="560px"
                                 title="CV Preview"
                                 style={{ border: 'none' }}
                                 className="scrollbar-custom"

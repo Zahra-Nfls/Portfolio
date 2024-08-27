@@ -145,19 +145,19 @@ const countries = [
 
     return (
         <>
-                <div className="relative" style={{ width: '1400px', height: '800px',  overflow: 'hidden'}}>
+                <div className="relative" style={{ width: '1400px', height: '1050px',  overflow: 'hidden'}}>
                 <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${bg.src})`, backgroundSize: 'cover' }}>
                     <RouteNavBar openModal={openModal} isModalOpen={isModalOpen} closeModal={closeModal} />
-                    <section className="flex flex-row justify-center gap-3 ">
+                    <section className="flex flex-row justify-center gap-3  mt-16 ">
                     <h1 className="text-4xl text-fuchsia-950 font-dm text-center mb-5">About Me</h1>
                     <Image src={folder} alt="folder" className="w-10 h-10"/>
                     </section>
 
-                    <div className="flex flex-col overflow-y-auto scrollbar-custom mx-10" style={{ maxHeight: '700px' }}>
+                    <div className="flex flex-col overflow-y-auto scrollbar-custom mx-10" style={{ maxHeight: '800px' }}>
 
                 {/* Nationalities */}
                 {/* Nationalities */}
-<div className="py-5 div-style-mobile box-shadow mb-10">
+<div className="py-5 div-style-mobile box-shadow mb-5">
     <section className="flex flex-row justify-center items-center">
         <h2 className="text-3xl font-bold font-dm text-fuchsia-950">My Nationalities</h2>
         <Image src={nationality} alt="nationality" className="w-10 h-10 ml-4" />
@@ -186,7 +186,7 @@ const countries = [
             
                       {/* Movies */}
                     <div >
-    <div className="mt-2 div-style-mobile box-shadow mb-10">
+    <div className="mt-2 div-style-mobile box-shadow mb-5">
     <section className="flex flex-row justify-center items-center mb-4 ">
         <h2 className=" text-3xl font-bold font-dm text-fuchsia-950">My Favorite Movies</h2>
         <Image src={cinema} alt="cinema" className="w-10 h-10 ml-4" />
@@ -219,7 +219,7 @@ const countries = [
 
   {/* Singers */}
     <div >
-    <div className="mt-2 div-style-mobile box-shadow mb-10">
+    <div className="mt-2 div-style-mobile box-shadow mb-5">
     <section className="flex flex-row justify-center items-center mb-4 ">
         <h2 className=" text-3xl font-bold text-fuchsia-950 font-dm ">My Favorite Singers</h2>
         <Image src={Music} alt="Music" className="w-10 h-10 ml-4" />
@@ -253,7 +253,7 @@ const countries = [
 
   {/* Books */}
     <div >
-    <div className="mt-2 div-style-mobile box-shadow mb-10">
+    <div className="mt-2 div-style-mobile box-shadow mb-5">
     <section className="flex flex-row justify-center items-center mb-4 ">
         <h2 className=" text-3xl font-bold text-fuchsia-950 font-dm ">My Favorite Books</h2>
         <Image src={favorite} alt="Books" className="w-10 h-10 ml-4" />
@@ -285,8 +285,8 @@ const countries = [
 
   {/* Countries */}
     <div >
-    <div className="mt-2 div-style-mobile box-shadow mb-40">
-    <section className="flex flex-row justify-center items-center mb-4 ">
+    <div className="mt-2 div-style-mobile box-shadow mb-20">
+    <section className="flex flex-row justify-center items-center  ">
         <h2 className=" text-3xl font-bold font-dm text-fuchsia-950">My Favorite Countries</h2>
         <Image src={country} alt="country" className="w-10 h-10 ml-4" />
     </section>

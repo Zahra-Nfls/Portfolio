@@ -25,7 +25,7 @@ export default function Skills(){
             <div className="relative" style={{width: '1848px', height: '1000px', overflow: 'hidden' }}>
                 <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${bg.src})`, backgroundSize: 'cover' }}>
                     <RouteNavBar openModal={openModal} isModalOpen={isModalOpen} closeModal={closeModal} />
-                    <section className="flex flex-row justify-center gap-3 items-center mb-3 mt-16" >
+                    <section className="flex flex-row justify-center gap-3 items-center mb-5 mt-16" >
                     <h2 className="text-4xl text-fuchsia-950 font-dm text-center ">My Skills</h2>
                     <Image src={pc} alt="usb" className="w-12 hz-12"/>
                     </section>

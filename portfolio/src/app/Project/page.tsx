@@ -48,7 +48,7 @@
         <div className="relative " style={{ width: '1848px', height: '1000px', overflow: 'hidden' }}>
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${bg.src})`, backgroundSize: 'cover' }}>
         <RouteNavBar openModal={openModal} isModalOpen={isModalOpen} closeModal={closeModal} />
-            <section className="flex flew-row justify-center mt-16 gap-3">
+            <section className="flex flew-row justify-center mb-5 mt-16 gap-3">
             <h2 className="text-4xl text-fuchsia-950 font-dm ">My Projects</h2>
             <Image src={usb} alt="usb" className="w-10"/>
             </section>

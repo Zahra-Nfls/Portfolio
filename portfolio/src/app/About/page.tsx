@@ -57,6 +57,7 @@ import jflg from "../../../public/images/japan (1).png";
 import jicon from "../../../public/images/fuji (1).png";
 import Kflag from "../../../public/images/south-korea.png";
 import kicon from "../../../public/images/KICON.png";
+import motto from "../../../public/images/motto.png";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from "react-slick";
@@ -155,184 +156,188 @@ const countries = [
 
                     <div className="flex flex-col overflow-y-auto scrollbar-custom mx-10" style={{ maxHeight: '800px' }}>
 
+                    <div className="py-5 div-style-mobile box-shadow mb-5">
+                    <section className="flex flex-col justify-center items-center">
+                            <h2 className="text-3xl font-bold font-dm text-fuchsia-950">My Life Motto:</h2>
+                            <Image src={motto} alt="motto" className=" ml-4 transform hover:scale-110 transition-transform duration-300" />
+                        </section>
+                    </div>
+
+
                 {/* Nationalities */}
-                {/* Nationalities */}
-<div className="py-5 div-style-mobile box-shadow mb-5">
-    <section className="flex flex-row justify-center items-center">
-        <h2 className="text-3xl font-bold font-dm text-fuchsia-950">My Nationalities</h2>
-        <Image src={nationality} alt="nationality" className="w-10 h-10 ml-4" />
-    </section>
-    <div className="mt-2 mx-4 sm:mx-8 md:mx-20 lg:mx-32 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 overflow-y-auto scrollbar-custom" style={{ maxHeight: '700px' }}>
-        {nationalities.map((nationality) => (
-            <div key={nationality.id} className="p-5 my-5 bg-white shadow-lg rounded-lg div-style-mobile box-shadow relative transform hover:scale-110 transition-transform duration-300 cursor-pointer">
-                <a href={nationality.cityUrl} target="_blank" rel="noopener noreferrer">
-                    <Image src={nationality.image} alt={nationality.name} width={nationality.width} height={nationality.height} className="w-full h-40 object-cover rounded" />
-                    <section className="flex flex-row items-center mt-2">
-                        <h3 className="text-2xl text-fuchsia-950 font-dm">{nationality.name}</h3>
-                        <Image src={nationality.icon} alt={nationality.name} width={nationality.width} height={nationality.height} className="w-8 ml-3" />
-                    </section>
-                    <p className="mt-2 text-xs font-playfair">{nationality.description}</p>
-                    <section className="flex flex-row items-center justify-center mt-2">
-                        <Image src={nationality.icon2} width={nationality.width} height={nationality.height} alt={nationality.name} className="w-8" />
-                        <p className="ml-2 text-fuchsia-950 font-playfair">{nationality.cityName}</p>
-                    </section>
-                </a>
-            </div>
-        ))}
-    </div>
-</div>
+                    <div className="py-5 div-style-mobile box-shadow mb-5">
+                        <section className="flex flex-row justify-center items-center">
+                            <h2 className="text-3xl font-bold font-dm text-fuchsia-950">My Nationalities</h2>
+                            <Image src={nationality} alt="nationality" className="w-10 h-10 ml-4" />
+                        </section>
+                        <div className="mt-2 mx-4 sm:mx-8 md:mx-20 lg:mx-32 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 overflow-y-auto scrollbar-custom" style={{ maxHeight: '700px' }}>
+                            {nationalities.map((nationality) => (
+                                <div key={nationality.id} className="p-5 my-5 bg-white shadow-lg rounded-lg div-style-mobile box-shadow relative transform hover:scale-110 transition-transform duration-300 cursor-pointer">
+                                    <a href={nationality.cityUrl} target="_blank" rel="noopener noreferrer">
+                                        <Image src={nationality.image} alt={nationality.name} width={nationality.width} height={nationality.height} className="w-full h-40 object-cover rounded" />
+                                        <section className="flex flex-row items-center mt-2">
+                                            <h3 className="text-2xl text-fuchsia-950 font-dm">{nationality.name}</h3>
+                                            <Image src={nationality.icon} alt={nationality.name} width={nationality.width} height={nationality.height} className="w-8 ml-3" />
+                                        </section>
+                                        <p className="mt-2 text-xs font-playfair">{nationality.description}</p>
+                                        <section className="flex flex-row items-center justify-center mt-2">
+                                            <Image src={nationality.icon2} width={nationality.width} height={nationality.height} alt={nationality.name} className="w-8" />
+                                            <p className="ml-2 text-fuchsia-950 font-playfair">{nationality.cityName}</p>
+                                        </section>
+                                    </a>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
 
 
             
                       {/* Movies */}
                     <div >
-    <div className="mt-2 div-style-mobile box-shadow mb-5">
-    <section className="flex flex-row justify-center items-center mb-4 ">
-        <h2 className=" text-3xl font-bold font-dm text-fuchsia-950">My Favorite Movies</h2>
-        <Image src={cinema} alt="cinema" className="w-10 h-10 ml-4" />
-    </section>
-        <Slider {...sliderSettings} className="mx-4 mb-5">
-            {movies.map((movie) => (
-                <div key={movie.id} className="p-5 gap-5 div-slider flex flex-col" >
-                    <a href={movie.cityUrl} target="_blank" rel="noopener noreferrer">
-                        <div className="flex flex-col justify-center items-center ">
-                            <Image
-                                src={movie.image}
-                                alt={movie.title}
-                                width={movie.width}
-                                height={movie.height}
-                                className="w-60 h-40 rounded-md mt-2 "
-                            />
-                            
-                                <h3 className="text-2xl text-fuchsia-950 font-dm">{movie.title}</h3>
-                                <p className="mt-1 mt-2 text-xs font-playfair mb-5 mx-2">{movie.description}</p>
-                        
-                        </div>
-                    </a>
+                    <div className="mt-2 div-style-mobile box-shadow mb-5">
+                    <section className="flex flex-row justify-center items-center mb-4 ">
+                        <h2 className=" text-3xl font-bold font-dm text-fuchsia-950">My Favorite Movies</h2>
+                        <Image src={cinema} alt="cinema" className="w-10 h-10 ml-4" />
+                    </section>
+                        <Slider {...sliderSettings} className="mx-4 mb-5">
+                            {movies.map((movie) => (
+                                <div key={movie.id} className="p-5 gap-5 div-slider flex flex-col" >
+                                    <a href={movie.cityUrl} target="_blank" rel="noopener noreferrer">
+                                        <div className="flex flex-col justify-center items-center ">
+                                            <Image
+                                                src={movie.image}
+                                                alt={movie.title}
+                                                width={movie.width}
+                                                height={movie.height}
+                                                className="w-60 h-40 rounded-md mt-2 "
+                                            />
+                                            
+                                                <h3 className="text-2xl text-fuchsia-950 font-dm">{movie.title}</h3>
+                                                <p className="mt-1 mt-2 text-xs font-playfair mb-5 mx-2">{movie.description}</p>
+                                        
+                                        </div>
+                                    </a>
+                                </div>
+                            ))}
+                        </Slider>
+                    </div>
                 </div>
-            ))}
-        </Slider>
-    </div>
-</div>
 
 
 
-  {/* Singers */}
-    <div >
-    <div className="mt-2 div-style-mobile box-shadow mb-5">
-    <section className="flex flex-row justify-center items-center mb-4 ">
-        <h2 className=" text-3xl font-bold text-fuchsia-950 font-dm ">My Favorite Singers</h2>
-        <Image src={Music} alt="Music" className="w-10 h-10 ml-4" />
-    </section>
-        <Slider {...sliderSettings} className="mx-4 mb-5">
-            {singers.map((singer) => (
-                <div key={singer.id} className="p-5 gap-5 div-slider flex flex-col " >
-                    <a href={singer.cityUrl} target="_blank" rel="noopener noreferrer">
-                        <div className="flex flex-col justify-center items-center ">
-                            <Image
-                                src={singer.image}
-                                alt={singer.name}
-                                width={singer.width}
-                                height={singer.height}
-                                className="w-60 h-40 rounded-md mt-2 "
-                            />
-                            
-                                <h3 className="text-2xl text-fuchsia-950 font-dm">{singer.name}</h3>
-                                <p className="mt-1 mt-2 text-xs font-playfair mb-5 mx-2">{singer.description}</p>
-                        
-                        </div>
-                    </a>
-                </div>
-            ))}
-        </Slider>
-    </div>
-</div>
-
-
-
-
-  {/* Books */}
-    <div >
-    <div className="mt-2 div-style-mobile box-shadow mb-5">
-    <section className="flex flex-row justify-center items-center mb-4 ">
-        <h2 className=" text-3xl font-bold text-fuchsia-950 font-dm ">My Favorite Books</h2>
-        <Image src={favorite} alt="Books" className="w-10 h-10 ml-4" />
-    </section>
-        <Slider {...sliderSettings} className="mx-4 mb-5">
-            {books.map((books) => (
-                <div key={books.id} className="p-5 gap-5 div-slider flex flex-col " >
-                    <a href={books.cityUrl} target="_blank" rel="noopener noreferrer">
-                        <div className="flex flex-col justify-center items-center ">
-                            <Image
-                                src={books.image}
-                                alt={books.title}
-                                width={books.width}
-                                height={books.height}
-                                className="w-60 h-40 rounded-md mt-2 "
-                            />
-                            
-                                <h3 className="text-2xl text-fuchsia-950 font-dm">{books.title}</h3>
-                                <p className="mt-1 mt-2 text-xs font-playfair mb-5 mx-2">{books.description}</p>
-                        
-                        </div>
-                    </a>
-                </div>
-            ))}
-        </Slider>
-    </div>
-</div>
-
-
-  {/* Countries */}
-    <div >
-    <div className="mt-2 div-style-mobile box-shadow mb-20">
-    <section className="flex flex-row justify-center items-center  ">
-        <h2 className=" text-3xl font-bold font-dm text-fuchsia-950">My Favorite Countries</h2>
-        <Image src={country} alt="country" className="w-10 h-10 ml-4" />
-    </section>
-        <Slider {...sliderSettings} className="mx-4 mb-5">
-            {countries.map((country) => (
-                <div key={country.id} className="p-5 gap-5 div-slider flex flex-col " >
-                    <a href={country.cityUrl} target="_blank" rel="noopener noreferrer">
-                        <div className="flex flex-col justify-center items-center ">
-                            <Image
-                                src={country.image}
-                                alt={country.name}
-                                width={country.width}
-                                height={country.height}
-                                className="w-60 h-40 rounded-md mt-2 "
-                            />
-                        </div>
-                <section className="flex flex-row">
-                <h3 className="text-2xl text-fuchsia-950 font-dm">{country.name}</h3>
-                <Image src={country.icon} 
-                alt={country.name} 
-                width={country.width}
-                height={country.height}
-                className="w-8 ml-3"/>
-
+                 {/* Singers */}
+                <div >
+                <div className="mt-2 div-style-mobile box-shadow mb-5">
+                <section className="flex flex-row justify-center items-center mb-4 ">
+                    <h2 className=" text-3xl font-bold text-fuchsia-950 font-dm ">My Favorite Singers</h2>
+                    <Image src={Music} alt="Music" className="w-10 h-10 ml-4" />
                 </section>
-                    <p className="mt-2 text-xs font-playfair">{country.description}</p>
-                <section className="flex flex-row items-center justify-center">
-                <Image src={country.icon2}
-                width={country.width}
-                height={country.height}
-                alt={country.name} className="w-9 mt-5"/>
-                <p className="mt-2 text-fuchsia-950 ml-2 font-playfair">{country.cityName}</p>
-                </section>
-                    </a>
+                    <Slider {...sliderSettings} className="mx-4 mb-5">
+                        {singers.map((singer) => (
+                            <div key={singer.id} className="p-5 gap-5 div-slider flex flex-col " >
+                                <a href={singer.cityUrl} target="_blank" rel="noopener noreferrer">
+                                    <div className="flex flex-col justify-center items-center ">
+                                        <Image
+                                            src={singer.image}
+                                            alt={singer.name}
+                                            width={singer.width}
+                                            height={singer.height}
+                                            className="w-60 h-40 rounded-md mt-2 "
+                                        />
+                                        
+                                            <h3 className="text-2xl text-fuchsia-950 font-dm">{singer.name}</h3>
+                                            <p className="mt-1 mt-2 text-xs font-playfair mb-5 mx-2">{singer.description}</p>
+                                    
+                                    </div>
+                                </a>
+                            </div>
+                        ))}
+                    </Slider>
                 </div>
-            ))}
-        </Slider>
+            </div>
+
+
+
+
+        {/* Books */}
+            <div >
+            <div className="mt-2 div-style-mobile box-shadow mb-5">
+            <section className="flex flex-row justify-center items-center mb-4 ">
+                <h2 className=" text-3xl font-bold text-fuchsia-950 font-dm ">My Favorite Books</h2>
+                <Image src={favorite} alt="Books" className="w-10 h-10 ml-4" />
+            </section>
+                <Slider {...sliderSettings} className="mx-4 mb-5">
+                    {books.map((books) => (
+                        <div key={books.id} className="p-5 gap-5 div-slider flex flex-col " >
+                            <a href={books.cityUrl} target="_blank" rel="noopener noreferrer">
+                                <div className="flex flex-col justify-center items-center ">
+                                    <Image
+                                        src={books.image}
+                                        alt={books.title}
+                                        width={books.width}
+                                        height={books.height}
+                                        className="w-60 h-40 rounded-md mt-2 "
+                                    />
+                                    
+                                        <h3 className="text-2xl text-fuchsia-950 font-dm">{books.title}</h3>
+                                        <p className="mt-1 mt-2 text-xs font-playfair mb-5 mx-2">{books.description}</p>
+                                
+                                </div>
+                            </a>
+                        </div>
+                    ))}
+                </Slider>
+            </div>
+        </div>
+
+
+        {/* Countries */}
+            <div >
+            <div className="mt-2 div-style-mobile box-shadow mb-20">
+            <section className="flex flex-row justify-center items-center  ">
+                <h2 className=" text-3xl font-bold font-dm text-fuchsia-950">My Favorite Countries</h2>
+                <Image src={country} alt="country" className="w-10 h-10 ml-4" />
+            </section>
+                <Slider {...sliderSettings} className="mx-4 mb-5">
+                    {countries.map((country) => (
+                        <div key={country.id} className="p-5 gap-5 div-slider flex flex-col " >
+                            <a href={country.cityUrl} target="_blank" rel="noopener noreferrer">
+                                <div className="flex flex-col justify-center items-center ">
+                                    <Image
+                                        src={country.image}
+                                        alt={country.name}
+                                        width={country.width}
+                                        height={country.height}
+                                        className="w-60 h-40 rounded-md mt-2 "
+                                    />
+                                </div>
+                        <section className="flex flex-row">
+                        <h3 className="text-2xl text-fuchsia-950 font-dm">{country.name}</h3>
+                        <Image src={country.icon} 
+                        alt={country.name} 
+                        width={country.width}
+                        height={country.height}
+                        className="w-8 ml-3"/>
+
+                        </section>
+                            <p className="mt-2 text-xs font-playfair">{country.description}</p>
+                        <section className="flex flex-row items-center justify-center">
+                        <Image src={country.icon2}
+                        width={country.width}
+                        height={country.height}
+                        alt={country.name} className="w-9 mt-5"/>
+                        <p className="mt-2 text-fuchsia-950 ml-2 font-playfair">{country.cityName}</p>
+                        </section>
+                            </a>
+                        </div>
+                    ))}
+                </Slider>
+            </div>
+        </div>
     </div>
-</div>
-
-
-
-</div>
             
-            </div>
-            </div>
+    </div>
+    </div>
         </>
     );
 }

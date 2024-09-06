@@ -77,16 +77,16 @@ export default function Skills(){
                             <h2 className="text-center font-bold text-2xl text-fuchsia-950 font-dm">Back-end:</h2>
                             <section className="flex flex-row gap-5 flex-wrap justify-center items-center">
                                 <a href="https://www.php.net/" target="_blank" rel="noopener noreferrer">
-                                    <Image className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md" width="70" height="70" src="https://user-images.githubusercontent.com/25181517/183570228-6a040b9f-3ddf-47a2-a201-743121dac664.png" alt="php" title="php" />
+                                    <Image className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md" width="80" height="80" src="https://user-images.githubusercontent.com/25181517/183570228-6a040b9f-3ddf-47a2-a201-743121dac664.png" alt="php" title="php" />
                                 </a>
                                 <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">
-                                    <Image className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md" width="70" height="70" src="https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png" alt="MySQL" title="MySQL" />
+                                    <Image className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md" width="80" height="80" src="https://user-images.githubusercontent.com/25181517/183896128-ec99105a-ec1a-4d85-b08b-1aa1620b2046.png" alt="MySQL" title="MySQL" />
                                 </a>
                                 <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">
-                                    <Image className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md" width="70" height="70" src="https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png" alt="Docker" title="Docker" />
+                                    <Image className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md" width="80" height="80" src="https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png" alt="Docker" title="Docker" />
                                 </a>
                                 <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">
-                                    <Image className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md" width="70" height="70" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" alt="Node.js" title="Node.js" />
+                                    <Image className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md" width="80" height="80" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" alt="Node.js" title="Node.js" />
                                 </a>
                             </section>
                         </div>
@@ -96,6 +96,9 @@ export default function Skills(){
                             <section className="flex flex-row gap-5 flex-wrap justify-center items-center">
                                 <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">
                                     <Image className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md" width="70" height="70" src="https://user-images.githubusercontent.com/25181517/117448124-a2da9800-af3e-11eb-85d2-bd1b69b65603.png" alt="Vue.js" title="Vue.js" />
+                                </a>
+                                <a href="https://bun.sh/" target="_blank" rel="noopener noreferrer">
+                                    <Image className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md" width="70" height="70" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/7e9599e9-0570-4bb6-b17f-676ed589912f" alt="Bun.js" title="Bun.js" />
                                 </a>
                                 <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer">
                                     <Image className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md" width="70" height="70" src="https://github.com/marwin1991/profile-technology-icons/assets/25181517/afcf1c98-544e-41fb-bf44-edba5e62809a" alt="Laravel" title="Laravel" />

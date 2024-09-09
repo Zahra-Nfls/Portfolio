@@ -16,22 +16,24 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-
+    
         const res = await fetch('/api/contact', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ email, message }),
+            body: JSON.stringify({ name, country, email, message }),
         });
-
+    
         if (res.ok) {
             alert('Message sent successfully!');
             onClose();
         } else {
-            alert('Failed to send message.');
+            alert(`Failed to send message. Please contact me directly at anaflous.zahra@outlook.com`);
         }
     };
+    
+    
 
     if (!isOpen) return null;
 
@@ -64,7 +66,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                     />
                     <input
                         type="email"
-                        placeholder="Let's Keep in Touch XD"
+                        placeholder="Email"
                         className="w-full p-2 border rounded mb-4 text-fuchsia-950 font-dm"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}

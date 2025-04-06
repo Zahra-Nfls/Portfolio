@@ -2,7 +2,7 @@
         import { useEffect, useState } from 'react';
         import { motion } from 'framer-motion';
 
-        const texts = ["React,", "Vue.js,", "MongoDb,", "TypeScript,", "Next.js,", "Tailwind,", "Laravel. "];
+        const texts = ["React,", "Vue.js,", "MongoDb,", "TypeScript,", "Next.js,", "Tailwind,"];
 
         export default function TextAnimation(){
             const [index, setIndex] = useState(0);
@@ -31,7 +31,7 @@
             }, [subIndex, index, reverse]);
         
             return (
-            <span>
+            <span className='text-xl font-yeseva '>
                 {displayText}
             </span>
         );

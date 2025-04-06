@@ -9,19 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        dm: ['DM Serif Text'],
-        playfair: ["Playfair Display" ],
-        bodoni: ["Bodoni Moda SC"],
-        eb: ["EB Garamond"],
-        caveat: ["Caveat Brush"],
-        play:["Play"],
-        lilita: ["Lilita One"],
-        dancing: ['Dancing Script'],
-        nanum: ['Nanum Gothic'],
-
+        handwritten: ['Patrick Hand', 'cursive'],
+        indie: ['Indie Flower', 'cursive'],
+        jakarta: ['Plus Jakarta Sans', 'sans-serif'],
+        abril: ["Abril Fatface", "serif"],
+        yeseva: ["Yeseva One", "serif"],
+        comfortaa: ["Comfortaa", "sans-serif"],
+        libre: ['"Libre Baskerville"', 'serif'],
+      },
     },
-  },
   },
   plugins: [],
 };
+
 export default config;

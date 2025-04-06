@@ -7,9 +7,9 @@
     .tooltip .tooltiptext {
         visibility: hidden;
         width: 100px;
-        background-color: rgba(250, 160, 220, 0.5);
-        color: #a1327e;
-        font-family: "DM Serif Text";
+        background-color: rgba(86, 26, 86, 0.5);
+        color: #ffff;
+        font-family: "libre";
         text-align: center;
         border-radius: 6px;
         padding: 3px 5px;

@@ -429,7 +429,7 @@ export  const timeline = [
     },
     {
         id:2,
-        year: "2024",
+        year: "2024-2025",
         title: "Created some Projects",
         description: "Enhancing technical expertise through hands-on learning that promotes self-directed research and strengthens newly gained knowledge",
         where: "BeCode",
@@ -439,7 +439,7 @@ export  const timeline = [
     },
     {
         id:3,
-        year: "2024",
+        year: "2024-2025",
         title: "Junior Web Developer",
         description: "Enhancing technical expertise through hands-on learning that promotes self-directed research and strengthens newly gained knowledge.",
         where: "BeCode",
@@ -449,7 +449,7 @@ export  const timeline = [
     },
     {
         id:4,
-        year: "2023",
+        year: "2022-2023",
         title: "Admin Employee",
         description: "Handle citizen inquiries on services, laws, and procedures, scheduled appointments, and provided document requirements for renewals and registrations. Respond to queries via email or phone.",
         where: "VILLE DE LA LOUVIÉRE",

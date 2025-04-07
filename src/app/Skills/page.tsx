@@ -29,13 +29,12 @@ export default function Skills(){
             className="hidden md:flex bg-cover w-full min-h-screen flex-col relative overflow-hidden" 
             style={{ backgroundImage: "url('/images/BG (4).jpg')" }}
             >
-            {/* Navbar */}
                     <RouteNavBar openModal={openModal} isModalOpen={isModalOpen} closeModal={closeModal} />
 
     <div className="flex h-full w-full">
-        {/* Left Side - Motto */}
-        <div className="w-1/2 p-2 flex-col flex items-center ml-[-10px]">
-        <h2  className="font-indie text-fuchsia-950  text-3xl text-dm ml-[-18px]" >
+
+        <div className="w-1/2 p-2 flex-col flex items-center ml-[-10px] mt-[-0.5rem]">
+        <h2  className="font-indie text-fuchsia-950  text-3xl  ml-[-18px]" >
             Tech Skills
         </h2>
         <div className="w-[510px] mb-[-40px]  flex flex-col gap-5 p-4 mr-10 justify-end">
@@ -47,7 +46,7 @@ export default function Skills(){
                             {frontEndIcons.map((frontEndIcon, index) => (
                             <a key={index} href={frontEndIcon.link} target="_blank" rel="noopener noreferrer">
                                 <Image
-                                    className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md"
+                                    className="hover:scale-125 transition-transform"
                                     width={30}
                                     height={30}
                                     src={frontEndIcon.src}
@@ -67,7 +66,7 @@ export default function Skills(){
                             {backendIcons.map((backendIcon, index) => (
                             <a key={index} href={backendIcon.link} target="_blank" rel="noopener noreferrer">
                                 <Image
-                                    className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md"
+                                    className="hover:scale-125 transition-transform"
                                     width={40}
                                     height={40}
                                     src={backendIcon.src}
@@ -84,7 +83,7 @@ export default function Skills(){
                             {generalTools.map((generalTool, index) => (
                                 <a key={index} href={generalTool.link} target="_blank" rel="noopener noreferrer">
                                     <Image
-                                        className="transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-md hover:rounded-md"
+                                        className="hover:scale-125 transition-transform"
                                         width={30}
                                         height={30}
                                         src={generalTool.src}

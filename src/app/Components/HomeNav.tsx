@@ -34,18 +34,18 @@ export default function HomeNav({ openModal, isModalOpen, closeModal }: HomeNavP
             {/* Desktop */}
             <div className="hidden mt-20 mr-10 justify-center bg-fuchsia-950/10 box-shadow md:flex md:w-14 md:flex-col text-black h-auto rounded-lg z-30">
                 <div className="flex flex-col justify-center h-full">
-                    <ul className="flex flex-col justify-center items-center">
+                    <ul className="flex flex-col justify-center items-center font-indie">
                         <Tooltip text="About">
-                        <li className="my-5"><Link href="/About"><Image src={about} alt="logo" className="w-6 h-6" /></Link></li>
+                        <li className="my-5  hover:scale-125 transition-transform"><Link href="/About"><Image src={about} alt="logo" className="w-6 h-6" /></Link></li>
                         </Tooltip>
                         <Tooltip text="Skills">
-                        <li className="my-5"><Link href="/Skills"><Image src={skills} alt="skills" className="w-5 h-5" /></Link></li>
+                        <li className="my-5  hover:scale-125 transition-transform"><Link href="/Skills"><Image src={skills} alt="skills" className="w-5 h-5" /></Link></li>
                         </Tooltip>
                         <Tooltip text="Projects">
-                        <li className="my-5"><Link href="/Project"><Image src={projects} alt="projects" className="w-5 h-5" /></Link></li>
+                        <li className="my-5  hover:scale-125 transition-transform"><Link href="/Project"><Image src={projects} alt="projects" className="w-5 h-5" /></Link></li>
                         </Tooltip>
                         <Tooltip text="Contact">
-                        <li className="my-5">
+                        <li className="my-5  hover:scale-125 transition-transform">
                             <Link href='/Contact'>
                             <button><Image src={contact} alt="contact" className="w-5 h-5" /></button> </Link></li>
                         </Tooltip>
@@ -60,7 +60,7 @@ export default function HomeNav({ openModal, isModalOpen, closeModal }: HomeNavP
                         <XMarkIcon className="w-6 h-6" />
                     </button>
                 </div>
-                <ul className="flex flex-col p-4 text-fuchsia-950 font-dm ">
+                <ul className="flex flex-col p-4 text-fuchsia-950 font-indie ">
                     <li className="my-4 hover:bg-fuchsia-950 hover:text-white p-2 rounded text-center">
                         <Link href="/About" onClick={toggleMenu}>About Me</Link>
                     </li>

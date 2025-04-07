@@ -5,7 +5,7 @@ import { nationalities, movies, books, singers, countries, languages} from "../.
 import Image from 'next/image';
 import AnimatedText from '../../Components/AnimatedText';
 import { useRouter } from "next/navigation";
-// import { FaArrowLeft } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa";
 
 
 
@@ -29,12 +29,20 @@ export default function PersonalAbout() {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col mt-[-3rem]">
+    <div className="flex flex-col mt-[-3rem] text-fuchsia-950">
+                  <button
+                      onClick={() => router.push("/About")}
+                      className="flex items-center gap-2 text-fuchsia-950 hover:text-fuchsia-950/45 transition font-indie"
+                  >
+                      <FaArrowLeft size={15} />
+                      <span className="text-m font-semibold">Back</span>
+                  </button>
 
       <AnimatedText 
                     text="About Me..." 
                     className="font-indie text-fuchsia-950 ml-10 text-3xl font-bold text-center mb-2" 
                 />
+
     <div className="relative flex-wrap text-lg font-dm h-full flex flex-col max-h-[28rem] p-3 overflow-y-auto mx-12 ">
     
       <div className="relative grid grid-cols-2 md:grid-cols-2 gap-6 w-full mb-5">
@@ -45,7 +53,7 @@ export default function PersonalAbout() {
             <h2 className="text-m font-semibold font-indie"> My Nationalities</h2>
             <Image src="/images/passport (1).png" alt="Nationalities" width={35} height={35} />
           </div>
-          <ul className="font-indie pl-5 space-y-2 text-black">
+          <ul className="font-indie pl-5 space-y-2 ">
             {nationalities.map((nation) => (
               <li key={nation.id}>
                 <a

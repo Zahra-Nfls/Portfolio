@@ -28,10 +28,10 @@ export default function Home() {
                 </div>
 
                 <section className="text-center">
-                    <h1 className="text-4xl font-caveat">ᕼI EᐯEᖇYOᑎE, I ᗩᗰ:</h1>
+                    <h1 className="text-4xl mt-5 font-indie">HI EVERYONE, I AM :</h1>
                     <AnimatedText 
                 text="Zahra, a passionate Web Developer!" 
-                className="font-indie text-fuchsia-950 ml-10 text-4xl font-bold text-center mb-5" 
+                className="font-yeseva text-fuchsia-950 ml-10 text-4xl font-bold text-center mb-5" 
             />
                 </section>
 
@@ -39,7 +39,7 @@ export default function Home() {
                     <Image src={pp} alt="Profile Picture" className="w-[280px]  mt-[-30px] ml-10" />
 
                     <section className="top-0 w-2/3 p-8 ml-[30px]">
-    <p className="text-2xl text-center mb-5">ᗯᕼᗩT I ᒪOᐯE TO ᗪO:</p>
+    <p className="text-2xl text-center mb-5 font-indie ">WHAT I LOVE TO DO:</p>
     
     <div className="flex items-center mb-3">
         <Image src={floral} alt="icon" className="w-8 mr-3 mb-4" />
@@ -56,9 +56,9 @@ export default function Home() {
 
     <div className="flex justify-end">
         <a href="/Zahra_CV.pdf" target="_blank" rel="noopener noreferrer">
-        <button className="flex items-center gap-2 border-2 border-fuchsia-950 rounded-xl text-fuchsia-950 p-3 mt-8 bg-fuchsia-950/10 transition duration-300 ease-in-out hover:bg-fuchsia-950/45 hover:text-white">
+        <button className="flex items-center gap-2 border-2 border-fuchsia-950 font-indie rounded-xl text-fuchsia-950 p-3 mt-8 bg-fuchsia-950/10 transition duration-300 ease-in-out hover:bg-fuchsia-950/45 hover:text-white">
                 <Image src={download} alt="download" className="w-5 h-5" />
-                𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 𝙼𝚢 𝚁𝚎𝚜𝚞𝚖𝚎
+                Download my Resume
             </button>
         </a>
     </div>

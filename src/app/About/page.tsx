@@ -14,7 +14,7 @@
         <div className="flex h-full w-full">
         {/* Left Side - Motto */}
         <div className="w-1/3 p-2 flex-col mt-4 flex justify-center items-center ml-14 mr-[-50px]">
-        <h2  className="font-indie text-fuchsia-950  text-3xl text-dm mb-7" >
+        <h2  className="font-indie text-fuchsia-950  text-3xl text-dm mb-7 mt-[-2rem]" >
             My Life Motto:
 
         </h2>
@@ -45,14 +45,14 @@
             {/* Navigation Buttons */}
             <section className="flex flex-row justify-center gap-6">
             <Link href="/About/Professional">
-                <button className="flex items-center gap-2 border-2 border-fuchsia-950 rounded-xl text-fuchsia-950 p-3 mt-5 bg-fuchsia-950/10 transition duration-300 ease-in-out hover:bg-fuchsia-950/45 hover:text-white">
-                𝙿𝚛𝚘𝚏𝚎𝚜𝚜𝚒𝚘𝚗𝚊𝚕 𝙰𝚋𝚘𝚞𝚝 
+                <button className="flex items-center gap-2 font-indie border-2 border-fuchsia-950 rounded-xl text-fuchsia-950 p-3 mt-5 bg-fuchsia-950/10 transition duration-300 ease-in-out hover:bg-fuchsia-950/45 hover:text-white">
+                Professional About
                 </button>
             </Link>
 
             <Link href="/About/Personal">
-                <button className="flex items-center gap-2 border-2 border-fuchsia-950 rounded-xl text-fuchsia-950 p-3 mt-5 bg-fuchsia-950/10 transition duration-300 ease-in-out hover:bg-fuchsia-950/45 hover:text-white">
-                𝙿𝚎𝚛𝚜𝚘𝚗𝚊𝚕 𝙰𝚋𝚘𝚞𝚝
+                <button className="flex items-center gap-2 font-indie border-2 border-fuchsia-950 rounded-xl text-fuchsia-950 p-3 mt-5 bg-fuchsia-950/10 transition duration-300 ease-in-out hover:bg-fuchsia-950/45 hover:text-white">
+                Personal About
                 </button>
             </Link>
             </section>

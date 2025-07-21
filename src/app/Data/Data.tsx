@@ -33,8 +33,8 @@
         { id: 8, title: 'Sanam Teri Kasam', description: 'A tragic love story from India where two lovers face insurmountable odds, blending heartache and passion.', image: '/images/sanam.jpeg', width: 150, height: 200, cityUrl: 'https://www.youtube.com/watch?v=wGpkG6SnkXA' },
         { id: 9, title: 'Wrath of Man', description: 'A heist thriller where a mysterious and cold character seeks revenge after a brutal attack on a cash truck.', image: '/images/wrat.jpeg', width: 150, height: 200, cityUrl: 'https://www.youtube.com/watch?v=EFYEni2gsK0' },
         { id: 10, title: 'Bad Boys Ride or Die', description: 'Continuing the action-packed adventures of detectives Marcus Burnett and Mike Lowrey.', image: '/images/bad boys 4.jpg', width: 150, height: 200, cityUrl: 'https://www.youtube.com/watch?v=hRFY_Fesa9Q' },
-        { id: 11, title: 'Solo Leveling', description: 'A South Korean web novel and manhwa about a weak hunter who grows stronger and aims to become the world’s greatest.', image: '/images/solo-leveling.jpg', width: 150, height: 200, cityUrl: 'https://www.youtube.com/watch?v=YvGSK8mIlt8' },
-        { id: 12, title: 'Jujutsu Kaisen', description: 'A Japanese anime series about a high school student who battles curses, powerful and dangerous supernatural beings.', image: '/images/jujutsu-kaisen.jpg', width: 150, height: 200, cityUrl: 'https://www.youtube.com/watch?v=pkKu9hLT-t8' },
+        { id: 11, title: 'Solo Leveling', description: 'A South Korean web novel and manhwa about a weak hunter who grows stronger and aims to become the world’s greatest.', image: '/images/soloLeveling.jpg', width: 150, height: 200, cityUrl: 'https://www.youtube.com/watch?v=YvGSK8mIlt8' },
+        { id: 12, title: 'Jujutsu Kaisen', description: 'A Japanese anime series about a high school student who battles curses, powerful and dangerous supernatural beings.', image: '/images/jujutsu kaizen.jpg', width: 150, height: 200, cityUrl: 'https://www.youtube.com/watch?v=pkKu9hLT-t8' },
     ];
     
     
@@ -48,17 +48,90 @@
         { id: 6, title: 'Piccoli Brividi', description: 'An Italian adaptation of the Goosebumps series, bringing horror and thrill to young readers.', image: '/images/piccoli.jpg', width: 300, height: 200, cityUrl: 'https://en.wikipedia.org/wiki/Goosebumps' },
     ];
 
-    export const singers = [
-        { id: 1, name: 'Stray Kids', description: 'A popular South Korean boy band known for their energetic performances and self-produced music.', image: '/images/skz.jpeg', width: 300, height: 200, cityUrl: 'https://www.youtube.com/watch?v=sOMu9xVmVgw' }, // Stray Kids: S-Class
-        { id: 2, name: 'BTS', description: 'Global K-pop sensations known for their powerful messages, intricate choreography, and massive fanbase.', image: '/images/bts.jpeg', width: 300, height: 200, cityUrl: 'https://www.youtube.com/watch?v=2qJcbP2ksQo' }, // BTS: Run
-        { id: 3, name: 'Wael Kfoury', description: 'A Lebanese singer with a powerful voice, known for his romantic ballads and deep cultural influence.', image: '/images/wael.jpg', width: 300, height: 200, cityUrl: 'https://www.youtube.com/watch?v=few84g10Y7I' }, // Wael Kfoury: Ma Te7ki
-        { id: 4, name: 'Ultimo', description: 'An Italian singer-songwriter whose emotional lyrics and heartfelt performances resonate deeply with his fans.', image: '/images/ultimo.jpg', width: 300, height: 200, cityUrl: 'https://www.youtube.com/watch?v=Z1TpmXgOhpM' }, // Ultimo: Sogni Appesi
-        { id: 5, name: 'Tamer Hosny', description: 'An Egyptian singer, actor, and composer, Tamer Hosny is known for his versatility and connection with the Arab youth.', image: '/images/tamer.jpeg', width: 300, height: 200, cityUrl: 'https://www.youtube.com/watch?v=2V7lb7vI4rk' }, // Tamer Hosny (latest song link from previous request)
-        { id: 6, name: 'Chirine Abdelwahab', description: 'A beloved Arabic pop singer with a strong fanbase, known for her soulful voice and emotive performances.', image: '/images/chirine.jpg', width: 300, height: 200, cityUrl: 'https://www.youtube.com/watch?v=mQ2yOWKmo8Y' }, // Chirine Abdelwahab: Masha3er
-        { id: 7, name: 'Majed Al Mohandes', description: 'An Iraqi-Saudi singer and composer, known as the "Engineer of Arabic Song" for his precise and melodic style.', image: '/images/majed.jpg', width: 300, height: 200, cityUrl: 'https://www.youtube.com/watch?v=ZBd4oZLRX2g' }, // Majed Al Mohandes: Ya Hob Ya Hob
-        { id: 8, name: 'Nek', description: 'An Italian singer-songwriter famous for his pop-rock music, especially the hit "Laura non c’è".', image: '/images/nek.jpg', width: 300, height: 200, cityUrl: 'https://www.youtube.com/watch?v=QXL-MGnq_V0' }, // Nek: L'emozione non ha voce
-        { id: 9, name: 'Paul Kim', description: 'A South Korean singer-songwriter known for his emotional ballads and soothing voice.', image: '/images/paul.jpg', width: 300, height: 200, cityUrl: 'https://www.youtube.com/watch?v=fttdGeVfAdQ' }, // Paul Kim (same link as before)
-    ];
+        export const singers = [
+        {
+            id: 1,
+            name: 'Stray Kids',
+            description: 'A popular South Korean boy band known for their energetic performances and self‑produced music.',
+            image: '/images/skz.jpeg',
+            width: 300,
+            height: 200,
+            cityUrl: 'https://www.youtube.com/watch?v=ovHoY8UBIu8', 
+        },
+        {
+            id: 2,
+            name: 'BTS',
+            description: 'Global K‑pop sensations known for their powerful messages, intricate choreography, and massive fanbase.',
+            image: '/images/bts.jpeg',
+            width: 300,
+            height: 200,
+            cityUrl: 'https://www.youtube.com/watch?v=UuD6LEPGlbU', 
+        },
+        {
+            id: 3,
+            name: 'Wael Kfoury',
+            description: 'A Lebanese singer with a powerful voice, known for his romantic ballads and deep cultural influence.',
+            image: '/images/wael.jpg',
+            width: 300,
+            height: 200,
+            cityUrl: 'https://www.youtube.com/watch?v=Lfr4pLxgp1A', 
+        },
+        {
+            id: 4,
+            name: 'Ultimo',
+            description: 'An Italian singer‑songwriter whose emotional lyrics and heartfelt performances resonate deeply with his fans.',
+            image: '/images/ultimo.jpg',
+            width: 300,
+            height: 200,
+            cityUrl: 'https://www.youtube.com/watch?v=Z1TpmXgOhpM', 
+        },
+        {
+            id: 5,
+            name: 'Tamer Hosny',
+            description: 'An Egyptian singer, actor, and composer, Tamer Hosny is known for his versatility and connection with the Arab youth.',
+            image: '/images/tamer.jpeg',
+            width: 300,
+            height: 200,
+            cityUrl: 'https://www.youtube.com/watch?v=XnI0T0yBuoU', 
+        },
+        {
+            id: 6,
+            name: 'Chirine Abdelwahab',
+            description: 'A beloved Arabic pop singer with a strong fanbase, known for her soulful voice and emotive performances.',
+            image: '/images/chirine.jpg',
+            width: 300,
+            height: 200,
+            cityUrl: 'https://www.youtube.com/watch?v=F1fpRObQ9dA', 
+        },
+        {
+            id: 7,
+            name: 'Majed Al Mohandes',
+            description: 'An Iraqi‑Saudi singer and composer, known as the "Engineer of Arabic Song" for his precise and melodic style.',
+            image: '/images/majed.jpg',
+            width: 300,
+            height: 200,
+            cityUrl: 'https://www.youtube.com/watch?v=FqYMhLrLOyw', 
+        },
+        {
+            id: 8,
+            name: 'Nek',
+            description: 'An Italian singer‑songwriter famous for his pop‑rock music, especially the hit "Laura non c’è".',
+            image: '/images/nek.jpg',
+            width: 300,
+            height: 200,
+            cityUrl: 'https://youtu.be/eixIjJmXnbM?si=9nZeW7jGg2DQV3cX', 
+        },
+        {
+            id: 9,
+            name: 'Paul Kim',
+            description: 'A South Korean singer‑songwriter known for his emotional ballads and soothing voice.',
+            image: '/images/paul.jpg',
+            width: 300,
+            height: 200,
+            cityUrl: 'https://www.youtube.com/watch?v=YBzJ0jmHv-4&list=RDYBzJ0jmHv-4&start_radio=1&ab_channel=1theK%28%EC%9B%90%EB%8D%94%EC%BC%80%EC%9D%B4%29',
+        },
+        ];
+
 
 
 
@@ -116,114 +189,128 @@
         
 
 
-    export const favoriteTechsIcons = [
-        {
-            href: "https://reactjs.org/",
-            src: "https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png",
-            alt: "React",
-            title: "React",
-            width: 30,
-        },
+            export const favoriteTechsIcons = [
             {
-            href: "https://nextjs.org/",
-            src: "https://github.com/marwin1991/profile-technology-icons/assets/136815194/5f8c622c-c217-4649-b0a9-7e0ee24bd704",
-            alt: "Next.js",
-            title: "Next.js",
-            width: 30,
-        },
-        {
-            href: "https://tailwindcss.com/",
-            src: "https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png",
-            alt: "Tailwind CSS",
-            title: "Tailwind CSS",
-            width: 30,
-        },
-        {
-            href: "https://www.typescriptlang.org/",
-            src: "https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png",
-            alt: "TypeScript",
-            title: "TypeScript",
-            width: 30,
-        },
-        {
-            name: "Docker",
-            src: "https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png",
-            link: "https://www.docker.com/",
-            alt: "Docker",
-            width: 30,
+                name: "React",
+                link: "https://reactjs.org/",
+                src: "https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png",
+                alt: "React",
+                title: "React",
+                width: 30,
             },
             {
-            name: "Node.js",
-            src: "https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png",
-            link: "https://nodejs.org/",
-            alt: "Node.js",
-            width: 30,
+                name: "Next.js",
+                link: "https://nextjs.org/",
+                src: "https://github.com/marwin1991/profile-technology-icons/assets/136815194/5f8c622c-c217-4649-b0a9-7e0ee24bd704",
+                alt: "Next.js",
+                title: "Next.js",
+                width: 30,
             },
+            {
+                name: "Tailwind CSS",
+                link: "https://tailwindcss.com/",
+                src: "https://user-images.githubusercontent.com/25181517/202896760-337261ed-ee92-4979-84c4-d4b829c7355d.png",
+                alt: "Tailwind CSS",
+                title: "Tailwind CSS",
+                width: 30,
+            },
+            {
+                name: "TypeScript",
+                link: "https://www.typescriptlang.org/",
+                src: "https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png",
+                alt: "TypeScript",
+                title: "TypeScript",
+                width: 30,
+            },
+            {
+                name: "Docker",
+                link: "https://www.docker.com/",
+                src: "https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png",
+                alt: "Docker",
+                title: "Docker",
+                width: 30,
+            },
+            {
+                name: "Node.js",
+                link: "https://nodejs.org/",
+                src: "https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png",
+                alt: "Node.js",
+                title: "Node.js",
+                width: 30,
+            },
+            ];
 
-    ];
-    export const nextTechsIcons = [
-        {
-            name: "Vue.js",
-            src: "https://user-images.githubusercontent.com/25181517/117448124-a2da9800-af3e-11eb-85d2-bd1b69b65603.png",
-            link: "https://vuejs.org/",
-            alt: "Vue.js",
-            width: 30,
+            export const nextTechsIcons = [
+            {
+                name: "Vue.js",
+                link: "https://vuejs.org/",
+                src: "https://user-images.githubusercontent.com/25181517/117448124-a2da9800-af3e-11eb-85d2-bd1b69b65603.png",
+                alt: "Vue.js",
+                title: "Vue.js",
+                width: 30,
             },
             {
-            name: "Bun.js",
-            src: "https://github.com/marwin1991/profile-technology-icons/assets/136815194/7e9599e9-0570-4bb6-b17f-676ed589912f",
-            link: "https://bun.sh/",
-            alt: "Bun.js",
-            width: 30,
+                name: "Bun.js",
+                link: "https://bun.sh/",
+                src: "https://github.com/marwin1991/profile-technology-icons/assets/136815194/7e9599e9-0570-4bb6-b17f-676ed589912f",
+                alt: "Bun.js",
+                title: "Bun.js",
+                width: 30,
             },
             {
-            name: "Laravel",
-            src: "https://github.com/marwin1991/profile-technology-icons/assets/25181517/afcf1c98-544e-41fb-bf44-edba5e62809a",
-            link: "https://laravel.com/",
-            alt: "Laravel",
-            width: 30,
+                name: "Laravel",
+                link: "https://laravel.com/",
+                src: "https://github.com/marwin1991/profile-technology-icons/assets/25181517/afcf1c98-544e-41fb-bf44-edba5e62809a",
+                alt: "Laravel",
+                title: "Laravel",
+                width: 30,
             },
             {
-            name: "Vite",
-            src: "https://github-production-user-asset-6210df.s3.amazonaws.com/62091613/261395532-b40892ef-efb8-4b0e-a6b5-d1cfc2f3fc35.png",
-            link: "https://vitejs.dev/",
-            alt: "Vite",
-            width: 30,
-            }
-        
-    ];
+                name: "Vite",
+                link: "https://vitejs.dev/",
+                src: "https://github-production-user-asset-6210df.s3.amazonaws.com/62091613/261395532-b40892ef-efb8-4b0e-a6b5-d1cfc2f3fc35.png",
+                alt: "Vite",
+                title: "Vite",
+                width: 30,
+            },
+            ];
 
-    export const recentTechsIcons = [
-        {
-            name: "Next UI",
-            src: "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/next_ui.png",
-            width: 30,
-            alt: "Next UI",
-        
-        },
-        {
-        name: "Python",
-        src: "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png",
-        width: 30,
-        alt: "Python",
-       
-        },
-        {
-        name: "Microsoft Azure",
-        src: "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/microsoft_azure.png",
-        width: 30,
-        alt: "Microsoft Azure",
-       
-        },
-        
-        {
-            name: "MongoDB",
-            src: "https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png",
-            link: "https://www.mongodb.com/",
-            width: 30,
-            alt: "MongoDB",
-            }
-    ]
+
+            export const recentTechsIcons = [
+            {
+                name: "Next UI",
+                link: "https://nextui.org/",
+                src: "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/next_ui.png",
+                alt: "Next UI",
+                title: "Next UI",
+                width: 30,
+            },
+            {
+                name: "Python",
+                link: "https://www.python.org/",
+                src: "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/python.png",
+                alt: "Python",
+                title: "Python",
+                width: 30,
+            },
+            {
+                name: "Microsoft Azure",
+                link: "https://azure.microsoft.com/",
+                src: "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/microsoft_azure.png",
+                alt: "Microsoft Azure",
+                title: "Microsoft Azure",
+                width: 30,
+            },
+            {
+                name: "MongoDB",
+                link: "https://www.mongodb.com/",
+                src: "https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png",
+                alt: "MongoDB",
+                title: "MongoDB",
+                width: 30,
+            },
+            ];
+
 
 
     export const frontEndIcons = [
@@ -423,7 +510,7 @@ export  const timeline = [
         title: "Intern as Front-End Developer",
         description: "Create an effective tool to monitor project progress, integrate my code smoothly with the existing system, and ensure the tool incorporates all essential and valuable features",
         where: "Proximus ADA",
-        href:"",
+        href:"https://www.linkedin.com/in/zahra-anaflous-dev/",
         src:"",
     
     },
@@ -443,7 +530,7 @@ export  const timeline = [
         title: "Junior Web Developer",
         description: "Enhancing technical expertise through hands-on learning that promotes self-directed research and strengthens newly gained knowledge.",
         where: "BeCode",
-        href:"",
+        href:"https://www.linkedin.com/in/zahra-anaflous-dev/",
         src:"",
         
     },
@@ -453,7 +540,7 @@ export  const timeline = [
         title: "Admin Employee",
         description: "Handle citizen inquiries on services, laws, and procedures, scheduled appointments, and provided document requirements for renewals and registrations. Respond to queries via email or phone.",
         where: "VILLE DE LA LOUVIÉRE",
-        href:"",
+        href:"https://www.linkedin.com/in/zahra-anaflous-dev/",
         src:"",
         
     },
@@ -545,7 +632,7 @@ export  const timeline = [
                 width: 300,
                 height: 200,
                 repo: "https://github.com/zaraana/Movie-Browser",
-                demo: "https://zaraana.github.io/Movie-Browser/",
+                demo: "https://movie-browser-zflix.vercel.app/",
                 },
                 {
                 id: 4,
@@ -614,8 +701,8 @@ export  const timeline = [
                 image: Quote,
                 width: 300,
                 height: 200,
-                repo: "https://github.com/zaraana/Random-Quote-Generator",
-                demo: "https://zaraana.github.io/Random-Quote-Generator/",
+                repo: "https://github.com/zaraana/random-quote-using-async-await",
+                demo: "https://zaraana.github.io/random-quote-using-async-await/",
                 },
                 {
                 id: 11,
@@ -638,4 +725,3 @@ export  const timeline = [
                 demo: "https://zaraana.github.io/",
                 },
             ];
-          

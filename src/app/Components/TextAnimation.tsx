@@ -31,7 +31,7 @@
             }, [subIndex, index, reverse]);
         
             return (
-            <span className='text-xl font-yeseva '>
+            <span className='text-xs md:text-lg font-yeseva '>
                 {displayText}
             </span>
         );

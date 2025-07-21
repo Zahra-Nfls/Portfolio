@@ -30,11 +30,6 @@ const playfair = Playfair_Display({
   display: "swap",
 });
 
-const bodoni = Bodoni_Moda({
-  subsets: ["latin"],
-  weight: ["400"],
-  display: "swap",
-});
 
 const eb = EB_Garamond({
   subsets: ["latin"],
@@ -95,9 +90,9 @@ export default function RootLayout({
     <html lang="en">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       <body className={inter.className}>
-      <div className="scrollbar-custom ">
-          <main className="flex">
-            {children}
+      <div className="font-indie">
+          <main className="flex-grow">
+                  {children}
           </main>
         </div>
         </body>

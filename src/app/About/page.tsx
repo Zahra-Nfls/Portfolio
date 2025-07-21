@@ -3,8 +3,10 @@
     import Image from 'next/image';
     import Link from 'next/link';
     import motto from "../../../public/images/mottoNew.png";
+    import { useState } from 'react';
 
-    export default function AboutPage({ isOpen }: { isOpen: boolean }) {
+    export default function AboutPage() {
+    const [isOpen, setIsOpen] = useState(false);
     return (
         <div
         className="flex h-full w-full flex-col md:flex-row justify-center transition-all duration-300"

@@ -1,4 +1,4 @@
-<img src="public/images/portfolio logo.gif"></img>
+<img src="public/images/𝐌𝐲 𝐏𝐨𝐫𝐭𝐟𝐨𝐥𝐢𝐨.png"></img>
  ### 𝚃𝚑𝚒𝚜 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚜𝚑𝚘𝚠𝚌𝚊𝚜𝚎𝚜 𝚖𝚢 𝚜𝚔𝚒𝚕𝚕𝚜 𝚊𝚗𝚍 𝚙𝚛𝚘𝚓𝚎𝚌𝚝𝚜 𝚞𝚜𝚒𝚗𝚐 𝙽𝚎𝚡𝚝.𝚓𝚜 𝚊𝚗𝚍 𝚃𝚢𝚙𝚎𝚂𝚌𝚛𝚒𝚙𝚝.
 
 # ɪɴᴛʀᴏᴅᴜᴄᴛɪᴏɴ                      
@@ -35,7 +35,7 @@
 </div>
 
 # ꜱᴄʀᴇᴇɴꜱʜᴏᴛ
-<img src="public/images/Screenshot.png"></img>
+<img src="public/images/Screenshot portfolio.png"></img>
 
 ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ɢɪᴠᴇ ᴍᴇ ᴀ ꜰᴇᴇᴅʙᴀᴄᴋ!
 

@@ -113,13 +113,13 @@ import Link from 'next/link';
             </div>
 
 
-            <div className="md:w-[30rem] h-full ml-[0px]  flex flex-col gap-5 p-3 md:mr-12 justify-center items-center md:justify-end cursor-pointer md:mt-[-2rem]">
+            <div className="md:w-[30rem] h-full ml-[0px] mb-10 md:mb-0 flex flex-col gap-5 p-3 md:mr-12 justify-center items-center md:justify-end cursor-pointer md:mt-[-2rem]">
                 <section>
                     <h2 className="text-fuchsia-950 font-semibold md:text-2xl text-lg mt-10 md:mt-0">
                         Technologies:
                     </h2>
                 </section>
-                <div className="border-fuchsia-950 rounded-xl bg-fuchsia-950/45 hover:bg-fuchsia-950/10 hover:text-fuchsia-950 text-white md:w-full w-56 p-6 shadow-lg ">
+                <div className="border-fuchsia-950 rounded-xl bg-fuchsia-950/45 hover:bg-fuchsia-950/10 hover:text-fuchsia-950 text-white md:w-full w-80 p-6 shadow-lg ">
                 <h3 className="text-lg font-indie mb-4 font-semibold">
                     Favorites:
                 </h3>
@@ -143,7 +143,7 @@ import Link from 'next/link';
                 </div>
 
                 {/* Recent Techs */}
-                <div className="border-fuchsia-950 rounded-xl bg-fuchsia-950/45 hover:bg-fuchsia-950/10 hover:text-fuchsia-950 text-white md:w-full w-56 p-6 shadow-lg">
+                <div className="border-fuchsia-950 rounded-xl bg-fuchsia-950/45 hover:bg-fuchsia-950/10 hover:text-fuchsia-950 text-white md:w-full w-80 p-6 shadow-lg">
                 <h3 className="text-lg font-indie mb-4 font-semibold">
                     Recent:
                 </h3>
@@ -170,7 +170,7 @@ import Link from 'next/link';
 
 
                 {/* Next Techs */}
-                <div className="border-fuchsia-950 rounded-xl bg-fuchsia-950/45 hover:bg-fuchsia-950/10 hover:text-fuchsia-950 text-white md:w-full w-56 p-6 shadow-lg">
+                <div className="border-fuchsia-950 rounded-xl bg-fuchsia-950/45 hover:bg-fuchsia-950/10 hover:text-fuchsia-950 text-white md:w-full w-80 p-6 shadow-lg">
                 <h3 className="text-lg font-indie mb-4 font-semibold">
                     Next:
                 </h3>

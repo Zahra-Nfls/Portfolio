@@ -375,7 +375,7 @@ export default function Projects() {
         </section>
 
         {/* Projects Grid */}
-        <div className="w-full max-w-7xl flex-grow overflow-y-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-10 scrollbar-custom h-[24rem]">
+        <div className="w-full max-w-7xl flex-grow overflow-y-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-10 scrollbar-custom h-full md:h-[24rem]">
           {projects.map((project, index) => (
             <div
               key={index}

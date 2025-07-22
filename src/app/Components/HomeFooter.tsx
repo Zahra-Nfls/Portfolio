@@ -14,7 +14,7 @@ export default function HomeFooter() {
                         </a>
                     </li>
                     <li>
-                        <a href="https://discord.gg/FKGAHdJz" target="_blank" rel="noopener noreferrer">
+                        <a href="https://discord.gg/cPVdSgHT" target="_blank" rel="noopener noreferrer">
                             <Image src={discord} alt="Discord" className="w-5 h-5 md:w-6 md:h-6 hover:scale-125 transition-transform"/>
                         </a>
                     </li>

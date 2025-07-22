@@ -120,7 +120,7 @@
             </div>
 
             {/* Right side - Soft Skills */}
-            <div className="w-full h-full md:w-[60%] flex flex-col justify-center px-5 mt-5">
+            <div className="w-full h-full md:w-[60%] flex flex-col justify-center px-5 mt-5 mb-10 md:mb-0">
                 <h3 className="font-indie text-fuchsia-950 font-semibold text-2xl text-center mt-6 md:mb-[-0.5rem]">Soft Skills</h3>
 
                 <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4 p-5 md:overflow-x-auto h-full md:h-[65.5vh]">

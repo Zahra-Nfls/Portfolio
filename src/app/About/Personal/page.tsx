@@ -367,7 +367,7 @@ export default function PersonalAbout() {
   return (
     <div className="w-full h-auto md:h-full flex flex-col scrollbar-custom-professional relative">
       {/* Navbar / Header - NOT blurred */}
-      <div className="flex flex-col justify-center md:justify-start md:gap-5 mt-[-0.5rem] ml-[2rem] md:ml-14 md:mt-[-2rem] z-30 relative">
+      <div className="flex flex-col justify-center md:justify-start md:gap-6 ml-[2rem] md:ml-14 md:mt-[-1rem] mt-12 z-30 relative">
         <button
           onClick={() => router.push("/About")}
           className="mt-[-2rem] flex items-center gap-2 text-fuchsia-950 hover:text-fuchsia-950/45 transition font-indie md:mt-0"
@@ -376,10 +376,10 @@ export default function PersonalAbout() {
           <span className="md:text-lg text-xs font-semibold">Back</span>
         </button>
 
-        <section className="flex justify-center items-center md:ml-[-5rem] md:mb-0">
+        <section className="flex justify-center items-center md:ml-[-5rem] ml-[-2rem] md:mb-0">
           <AnimatedText
             text="About Me..."
-            className="font-indie text-fuchsia-950 text-xl md:text-3xl font-bold text-center md:mt-[-2rem] mb-2 md:mb-0 ml-0 md:ml-7"
+            className="font-indie text-fuchsia-950 text-xl md:text-3xl font-bold text-center md:mt-[-2rem] mb-3 md:mb-0 ml-0 md:ml-7"
           />
         </section>
       </div>
@@ -389,8 +389,8 @@ export default function PersonalAbout() {
         <div className="relative md:flex-wrap text-lg font-dm h-full flex flex-col md:max-h-[28rem] p-3 overflow-y-auto w-full">
           <div className="relative grid grid-cols-1 md:grid-cols-2 gap-5 w-full mb-5 place-items-center px-10">
             {/* Nationalities Card */}
-            <div className="border-fuchsia-950 rounded-xl bg-fuchsia-950/10 w-96 md:w-[37rem] h-full p-5 shadow-lg mx-5 md:mx-0">
-              <div className="flex items-center gap-2 mb-4">
+            <div className="border-fuchsia-950 rounded-xl bg-fuchsia-950/10 w-80 md:w-[37rem] h-full p-5 shadow-lg mx-5 md:mx-0">
+              <div className="flex items-center gap-2 mb-4 ">
                 <h2 className="text-sm md:text-lg font-semibold font-indie">My Nationalities</h2>
                 <Image src="/images/passport (1).png" alt="Nationalities" width={35} height={35} />
               </div>
@@ -428,7 +428,7 @@ export default function PersonalAbout() {
           onClick={closeModal}
         >
           <div
-            className="modal p-6 rounded-xl max-w-lg w-full relative border border-fuchsia-950 shadow-xl bg-white mx-5"
+            className="modal p-6 rounded-xl max-w-lg w-80 md:w-full relative border border-fuchsia-950 shadow-xl bg-white mx-5"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex flex-col items-center">
@@ -486,9 +486,9 @@ function Category({
   imageUrl: string;
 }) {
   return (
-    <div className="border-fuchsia-950 rounded-xl bg-fuchsia-950/10 p-4 shadow-lg w-96 md:w-[37rem] h-full flex flex-col justify-center mx-5 md:mx-10">
-      <div className="flex items-center">
-        <p className="text-sm md:text-lg font-semibold font-indie mt-3 mb-2">{title}</p>
+    <div className="border-fuchsia-950 rounded-xl bg-fuchsia-950/10 p-4 shadow-lg w-80 md:w-[37rem] h-full flex flex-col justify-center mx-5 md:mx-10">
+      <div className="flex items-center mx-10">
+        <p className="text-sm md:text-lg font-semibold font-indie mt-3 mb-2 ml-[-2rem]">{title}</p>
         <Image className="mb-2 mt-2 ml-2" src={imageUrl} alt={title} width={35} height={35} />
       </div>
       <ul className="grid col-2 md:grid-cols-2 gap-x-0 gap-y-1 mt-0">
@@ -498,7 +498,7 @@ function Category({
             className="text-black text-xs md:text-m cursor-pointer relative pl-6 before:content-[''] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-4 before:bg-[url('/images/fleur-de-lis.png')] before:bg-cover before:bg-no-repeat"
             onClick={() => openModal(item)}
           >
-            <span className="inline-block px-2 py-1 text-[15px] font-indie rounded-md hover:bg-fuchsia-950/50 hover:text-white transition-all duration-150">
+            <span className="inline-block px-2 py-1 text-xs md:text-[15px] font-indie rounded-md hover:bg-fuchsia-950/50 hover:text-white transition-all duration-150">
               {item.name || item.title}
             </span>
           </li>

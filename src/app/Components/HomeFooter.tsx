@@ -9,7 +9,7 @@ export default function HomeFooter() {
             <div className='mb-2 md:mb-0'>
                 <ul className='flex flex-row gap-2 md:gap-5 justify-end items-center mx-4 md:mx-10'>
                     <li>
-                        <a href="https://github.com/zaraana" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Zahra-Nfls" target="_blank" rel="noopener noreferrer">
                             <Image src={github} alt="GitHub" className="w-5 h-5 md:w-6 md:h-6 hover:scale-125 transition-transform "/>
                         </a>
                     </li>

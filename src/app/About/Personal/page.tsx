@@ -386,8 +386,8 @@ export default function PersonalAbout() {
 
       {/* Content and Modal Wrapper */}
       <div className={`transition-all duration-300 flex-1 ${selectedItem ? "blur-sm" : ""}`}>
-        <div className="relative md:flex-wrap text-lg font-dm h-full flex flex-col md:max-h-[28rem] p-3 overflow-y-auto w-full">
-          <div className="relative grid grid-cols-1 md:grid-cols-2 gap-5 w-full mb-5 place-items-center px-10">
+        <div className="relative md:flex-wrap text-lg font-dm h-full flex flex-col lg:max-h-[28rem] p-3 overflow-y-auto w-full">
+          <div className="relative grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 gap-5 w-full mb-5 place-items-center px-10">
             {/* Nationalities Card */}
             <div className="border-fuchsia-950 rounded-xl bg-fuchsia-950/10 w-80 md:w-[37rem] h-full p-5 shadow-lg mx-5 md:mx-0">
               <div className="flex items-center gap-2 mb-4 ">

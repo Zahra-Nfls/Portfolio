@@ -26,7 +26,7 @@ export default function HomeFooter() {
                 </ul>
             </div>
             <footer className="mb-0.5 text-gray-500 text-center text-xs md:text-sm">
-    <p>© 2025 Zahra Nfls カルマ. All rights reserved.</p>
+    <p>© 2026 Zahra Nfls カルマ. All rights reserved.</p>
 </footer>
         </div>
     )

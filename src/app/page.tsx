@@ -10,6 +10,7 @@ import NavBaR from './Components/NavBar';
 import Image from 'next/image';
 import HomeFooter from './Components/HomeFooter';
 import download from './../../public/images/direct-download.png'; 
+import translation from './../../public/images/translation (1).png'; 
 
 export default function Home() {
     const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +39,7 @@ export default function Home() {
     return (
         <div 
             className="flex flex-col bg-cover w-full h-screen md:min-h-screen justify-between relative overflow-hidden cursor-pointer"
-            style={{ backgroundImage: "url('/images/BG (4).jpg')" }}
+            style={{ backgroundImage: "url('/images/BG (4).png')" }}
         >
             {/* Black Overlay */}
             {isOpen && <div className="fixed inset-0 bg-black/30 z-10" />}
@@ -71,9 +72,9 @@ export default function Home() {
                     <Image 
                         src={pp} 
                         alt="Profile Picture" 
-                        className="w-36 md:w-[280px] ml-2 md:ml-[-20rem] md:mt-[-7rem]" 
+                        className="w-44 md:w-[400px] md:ml-[-20rem] md:mt-[-8rem]" 
                     />
-                    <section className="w-2/3 mt-20 md:mt-0 md:w-2/3 p-4 md:p-5 md:ml-14 flex justify-end flex-col">
+                    <section className="ml-[-1.5rem] mt-20 mr:2 md:mt-0 md:w-2/3 p-4 md:p-5 md:ml-14 flex justify-end flex-col">
                         <p className="text-m md:text-2xl md:text-left mb-5 font-indie text-fuchsia-950 font-semibold">What I’m Passionate About:</p>
                         
                         <div className="flex items-start mb-2">
@@ -118,11 +119,17 @@ export default function Home() {
                             </p>
                         </div>
 
-                        <div className="flex justify-center md:justify-end mt-5 md:mt-0">
-                            <a href="/Zahra_CV.pdf" target="_blank" rel="noopener noreferrer">
+                        <div className="flex justify-center md:justify-end mt-5 md:mt-0 gap-3">
+                            <a href="/𝚉𝚊𝚑𝚛𝚊'𝚜 𝙲𝚟 .pdf" target="_blank" rel="noopener noreferrer">
                                 <button className="flex items-center gap-2 border-2 border-fuchsia-950 font-indie rounded-xl text-xs sm:text-xs md:text-sm text-fuchsia-950 px-3 py-3 mb-10 bg-fuchsia-950/10 transition duration-300 ease-in-out hover:bg-fuchsia-950/45 hover:text-white">
                                     <Image src={download} alt="download" className="w-4 sm:w-5 h-4 sm:h-5" />
-                                    Download my Resume
+                                    My Resume
+                                </button>
+                            </a>
+                            <a href="https://multilingual-cv.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <button className="flex items-center gap-2 border-2 border-fuchsia-950 font-indie rounded-xl text-xs sm:text-xs md:text-sm text-fuchsia-950 px-3 py-3 mb-10 bg-fuchsia-950/10 transition duration-300 ease-in-out hover:bg-fuchsia-950/45 hover:text-white">
+                                    <Image src={translation} alt="download" className="w-4 sm:w-5 h-4 sm:h-5" />
+                                    Multilingual Resume
                                 </button>
                             </a>
                         </div>

@@ -32,7 +32,7 @@
         <div
             className={`fixed inset-0 bg-cover bg-center transition-filter duration-300`}
             style={{
-            backgroundImage: "url('/images/BG (4).jpg')",
+            backgroundImage: "url('/images/BG (4).png')",
             }}
         />
 

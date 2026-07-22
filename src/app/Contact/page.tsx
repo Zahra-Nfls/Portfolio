@@ -82,7 +82,7 @@ return (
         {/* Background Image */}
         <div
             className="fixed inset-0 bg-cover bg-center transition-filter duration-300"
-            style={{ backgroundImage: "url('/images/BG (4).jpg')" }}
+            style={{ backgroundImage: "url('/images/BG (4).png')" }}
         />
 
   <div className="min-h-screen flex flex-col overflow-hidden text-xs md:text-base">
